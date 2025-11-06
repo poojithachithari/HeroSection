@@ -1,0 +1,122 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  overflow: hidden; 
+}
+
+/* ---------- Navbar ---------- */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 80px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.logo a {
+  font-size: 22px;
+  font-weight: 600;
+  color: #000;
+  text-decoration: none;
+}
+
+.nav-items a {
+  text-decoration: none;
+  color: #555;
+  font-size: 18px;
+  margin: 0 25px;
+  transition: color 0.3s ease;
+}
+
+.nav-items a:hover {
+  color: #007bff;
+}
+
+.user button {
+  background-color: #e9f4ff;
+  color: #007bff;
+  padding: 18px 28px;
+  border: none;
+  border-radius: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.user button:hover {
+  background-color: #d8ecff;
+}
+
+/* ---------- Hero Section ---------- */
+.hero {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 180px;
+  background-color: #fcfcfc;
+}
+
+/* Left side: Text */
+
+
+.hero-left h1 {
+  font-size: 52px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.hero-left h2 {
+  font-size: 52px;
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.hero-left p {
+  font-size: 18px;
+  color: #777;
+  line-height: 1.6;
+  margin-bottom: 30px;
+  max-width: 450px;
+}
+
+/* CTA Button */
+.cta-btn {
+  padding: 22px 24px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+  background-color: #006ae6;
+}
+
+/* Right side: Image */
+.hero-right {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-right img {
+  width: 430px;
+  max-width: 100%;
+  height: auto;
+}
+
